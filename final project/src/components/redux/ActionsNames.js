@@ -1,0 +1,2 @@
+export const ADD_CERAMIC = "ADD_CERAMIC";
+export const DELETE_CERAMIC = "DELETE_CERAMIC";

@@ -1,0 +1,200 @@
+.header-container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.main {
+  background-color: #025048;
+  color: white;
+  padding: 0px 150px;
+  display: flex;
+  height: 700px;
+}
+
+.main-text {
+  padding: 150px 0px 20px 0px;
+}
+
+.main-text h1 {
+  font-family: "Playfair Display", serif !important;
+  font-size: 64px;
+  width: 600px;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main-text h2 {
+  font-family: "Playfair Display", serif !important;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 3 0px;
+}
+
+.main-img {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.main-img .img-1 {
+  position: absolute;
+  top: 150px;
+}
+
+.main-img .img-2 {
+  margin-left: 150px;
+  height: 700px;
+}
+
+.second {
+  padding: 150px 150px 20px;
+}
+
+.second p {
+  color: #025048;
+  font-weight: 500;
+  font-family: "Playfair Display", serif !important;
+}
+
+.second h1 {
+  color: #025048;
+  font-family: "Playfair Display", serif !important;
+  width: 950px;
+  font-size: 48px;
+  margin: 30px 0px 10px;
+  line-height: 1.2;
+  font-weight: 540;
+}
+
+.img-container {
+  padding: 50px 150px;
+  display: flex;
+}
+
+.column-1 .img-3 {
+  margin-bottom: 280px;
+}
+
+.column-1 p {
+  color: #424b4a;
+  width: 500px;
+  line-height: 1.8;
+  font-size: 16px;
+  font-weight: 490;
+}
+
+.column-1 h1 {
+  font-family: "Playfair Display", serif !important;
+  font-size: 48px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #424b4a;
+  font-weight: 540;
+}
+
+.column-1 .img-4 {
+  margin-top: 40px;
+  position: relative;
+}
+
+.column-1 div {
+  position: absolute;
+  top: 3080px;
+  left: 165px;
+  width: 33%;
+  background-color: white;
+  padding: 16px 30px;
+  color: #424b4a;
+  height: 90px;
+}
+
+.column-1 div h2 {
+  font-size: 24px;
+  font-family: "Playfair Display", serif !important;
+  margin-bottom: 6px;
+}
+
+.img-container .column-2 {
+  margin-left: 90px;
+  padding-top: 72px;
+}
+
+.column-2 h2 {
+  color: #025048;
+  font-family: "Playfair Display", serif !important;
+  font-weight: 400;
+  margin: 20px 0px;
+  font-size: 26px;
+  line-height: 1.3;
+}
+
+.column-2 p {
+  color: #025048;
+  margin-bottom: 28px;
+}
+
+.column-2 .read_more_btn {
+  padding: 10px 30px;
+  background-color: white;
+  font-size: 16px;
+  border: 1px solid #025048;
+  cursor: pointer;
+  color: #025048;
+}
+
+.column-2 .read_more_btn:hover {
+  background-color: #025048;
+  color: white;
+}
+
+.column-2 .img-6 {
+  margin-top: 150px;
+  position: relative;
+}
+
+.column-2 .img-6-div {
+  position: absolute;
+  top: 2660px;
+  left: 812px;
+  width: 33%;
+  background-color: white;
+  padding: 10px 25px;
+  color: #424b4a;
+  height: 90px;
+}
+
+.column-2 div h2 {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  font-family: "Playfair Display", serif !important;
+  font-weight: 550 !important;
+  font-size: 24px;
+  line-height: 1.1;
+}
+
+.column-2 .img-7 {
+  margin-top: 100px;
+  position: relative;
+}
+
+.column-2 .img-7-div {
+  position: absolute;
+  top: 3350px;
+  left: 812px;
+  width: 33%;
+  background-color: white;
+  padding: 10px 25px;
+  color: #424b4a;
+  height: 90px;
+}
+
+.column-2 div h2 {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  font-family: "Playfair Display", serif !important;
+  font-weight: 550 !important;
+  font-size: 24px;
+  line-height: 1.1;
+}

@@ -1,0 +1,135 @@
+.shop-text {
+  margin-left: 150px;
+  margin-top: 64px;
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-family: "Playfair Display", serif !important;
+  color: #025048;
+  line-height: 32.5px;
+}
+
+hr {
+  width: 80%;
+  margin: 20px 150px;
+  opacity: 50%;
+}
+
+.all-11 {
+  width: 80%;
+  margin: 50px auto 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #424b4a;
+  font-size: 16px;
+}
+
+.all-11 a {
+  text-decoration: none;
+  color: #424b4a;
+  font-size: 16px;
+}
+
+.info-main-2 {
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 80px;
+  display: flex;
+  width: 100%;
+  padding: 0px 140px;
+  height: auto;
+}
+
+.info-main-2 {
+  flex-wrap: wrap;
+  margin: auto;
+  display: flex;
+}
+
+.info-main-2 div {
+  width: 33.1%;
+  margin-bottom: 50px;
+}
+
+.info-main-2 div p {
+  font-family: "Playfair Display", serif !important;
+  color: #9e9e9e;
+  margin-top: 10px;
+}
+
+.info-main-2 div h4 a {
+  font-family: "Playfair Display", serif !important;
+  color: #025048;
+  text-decoration: none;
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.info-main-2 div img {
+  width: 95%;
+}
+
+.info-main-2 .star {
+  margin: 0px;
+}
+
+.info-main-2 h5 {
+  font-size: 18px;
+  color: #424b4a;
+  margin-top: 15px;
+}
+
+.info-main-2 h5 del {
+  color: #a0a5a4;
+}
+
+.info-main-2 .main-1 {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.info-main-2 .main-1 button {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  background-color: white;
+  right: 40px;
+  padding: 5px !important;
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+}
+
+.info-main-2 div .sale {
+  position: absolute;
+  font-family: "Work Sans", sans-serif !important;
+  font-size: 14px;
+  font-weight: 500;
+  top: 18px;
+  left: 25px;
+  border: 1px solid white;
+  background-color: white;
+  color: #025048;
+  padding: 3px 8px;
+  border-radius: 12px;
+}
+
+.cart-container {
+  margin-top: 30px;
+  padding: 10px;
+  border-top: 2px solid #ddd;
+}
+
+.cart-container h2 {
+  margin-bottom: 10px;
+}
+
+.cart-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-container li {
+  margin: 5px 0;
+}

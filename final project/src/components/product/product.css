@@ -1,0 +1,26 @@
+.product-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 50px 150px;
+}
+
+.s-imgs {
+  width: 120px;
+  flex-wrap: wrap;
+  margin-right: 8px;
+}
+
+.s-imgs img {
+  width: 120px;
+  margin-bottom: 8px;
+}
+
+.lg-img {
+  margin-right: 50px;
+}
+
+.lg-img img {
+  width: 470px;
+  height: 510px;
+}

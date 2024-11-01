@@ -1,0 +1,235 @@
+/* .basket-container {
+  width: 80%;
+  margin: auto;
+}
+
+.basket-container h1 {
+  color: #025048;
+  font-family: "Playfair Display", serif !important;
+  margin: 50px 0px 20px;
+  font-size: 32px;
+  font-weight: 550;
+}
+
+.product-th {
+  padding-left: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 0.5px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+.table-1 {
+  width: 800px;
+}
+
+.table-1 button {
+  width: 40px;
+  height: 40px;
+}
+
+.td-img {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.td-img img {
+  width: 100px;
+}
+
+.td-img p {
+  color: #025048;
+  font-weight: 550;
+}
+
+.table-1 th {
+  font-family: "Work Sans", sans-serif !important;
+  color: #424b4a;
+}
+
+.table-1 a {
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 2px 8px 5px 8px;
+  color: #424b4a;
+  text-decoration: none;
+}
+
+.table-2 {
+  width: 350px;
+  height: 500px;
+}
+
+.table-2 strong {
+  font-family: "Work Sans", sans-serif !important;
+  color: #424b4a;
+  height: 200px;
+}
+
+.table-2 th {
+  color: #025048;
+  font-family: "Playfair Display", serif !important;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  height: 70px;
+} */
+
+/* Ümumi Səbət Konteyner */
+
+.basket-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.basket-container h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Cədvəl */
+
+.table-container {
+  overflow-x: auto;
+}
+
+.table-1 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.table-1 thead {
+  background-color: #025048;
+  color: #fff;
+}
+
+.table-1 th,
+.table-1 td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.product-th {
+  text-align: left;
+}
+
+.td-img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.td-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+/* Button-lar */
+
+button {
+  background-color: #025048;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #017a63;
+}
+
+/* Məhsul Əlavə/Sil düymələri */
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btns button {
+  width: 30px;
+  height: 30px;
+  font-size: 1.2em;
+}
+
+/* Subtotal və Total */
+
+.table-2 {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+.table-2 th,
+.table-2 td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table-2 tr:nth-child(2) td,
+.table-2 tr:nth-child(3) td {
+  text-align: right;
+}
+
+.table-2 th {
+  background-color: #025048;
+  color: #fff;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.table-2 td strong {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Mobil Görünüş */
+
+@media (max-width: 600px) {
+  .td-img img {
+    width: 40px;
+    height: 40px;
+  }
+  .table-1 th,
+  .table-1 td,
+  .table-2 th,
+  .table-2 td {
+    padding: 8px;
+  }
+  button {
+    padding: 5px;
+    font-size: 0.9em;
+  }
+}

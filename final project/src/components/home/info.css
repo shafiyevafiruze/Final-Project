@@ -1,0 +1,338 @@
+.info-container {
+  width: 100%;
+  padding: 0px 150px;
+  height: auto;
+  margin: auto;
+}
+
+.info-container .most {
+  margin-top: 60px;
+  color: #025048;
+}
+
+.info-container h1 {
+  font-family: "Playfair Display", serif !important;
+  color: #025048;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  width: 850px;
+}
+
+.info-main {
+  flex-wrap: wrap;
+  margin: auto;
+  display: flex;
+}
+
+.info-main div {
+  width: 33.1%;
+  margin: 0.1%;
+}
+
+.info-main div p {
+  font-family: "Playfair Display", serif !important;
+  color: #9e9e9e;
+  margin-top: 10px;
+}
+
+.info-main div h4 {
+  font-family: "Playfair Display", serif !important;
+  color: #025048;
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.info-main div img {
+  width: 92%;
+}
+
+.info-main .star {
+  margin: 5px 0px;
+}
+
+.info-main h5 {
+  font-size: 18px;
+  color: #424b4a;
+  margin-top: 15px;
+}
+
+.info-main h5 del {
+  color: #a0a5a4;
+}
+
+.info-main .main-1 {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.info-main .main-1 p {
+  margin-top: 10px;
+  position: relative;
+}
+
+.info-main div .sale {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 14px;
+  font-weight: 500;
+  top: 18px;
+  left: 25px;
+  border: 1px solid white;
+  background-color: white;
+  color: #025048;
+  padding: 3px 8px;
+  border-radius: 12px;
+}
+
+.info-main .main-1 button {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  background-color: white;
+  right: 50px;
+  border-radius: 50%;
+  padding: 5px !important;
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+}
+
+.begin-container {
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  height: 550px;
+  width: 100%;
+}
+
+.begin-container div {
+  position: absolute;
+  top: 110px;
+  left: 295px;
+  background-color: white;
+  text-align: center;
+  width: 60%;
+  height: auto;
+  align-items: center;
+}
+
+.begin-container div h1 {
+  margin: auto;
+  font-size: 48px;
+  font-weight: 55s0;
+  color: #025048;
+  line-height: 1.3;
+  font-family: "Playfair Display", serif !important;
+  padding: 50px 35px 20px 35px;
+}
+
+.begin-container div p {
+  margin: 0px auto 30px;
+  font-size: 24px;
+  color: #025048;
+  font-family: "Playfair Display", serif !important;
+  font-weight: 400;
+}
+
+.begin-container div button {
+  border: 1px solid #025048;
+  padding: 10px 30px;
+  color: #025048;
+  cursor: pointer;
+  background-color: white;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.minimalist {
+  width: 100%;
+  padding: 0px 150px;
+  height: auto;
+  margin: auto;
+}
+
+.minimalist .trend {
+  font-family: "Playfair Display", serif !important;
+  color: #025048;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.minimalist h1 {
+  font-family: "Playfair Display", serif !important;
+  color: #025048;
+  font-size: 50px;
+  font-weight: 540;
+  line-height: 1.1;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  width: 850px;
+}
+
+.minimalist-img {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.minimalist-img div img {
+  width: 95%;
+  height: 370px;
+}
+
+.minimalist-img div p {
+  font-family: "Playfair Display", serif !important;
+  color: #9e9e9e;
+  margin-top: 10px;
+}
+
+.minimalist-img div {
+  width: 33.1%;
+  margin: 0.1%;
+  position: relative;
+}
+
+.minimalist-img div button {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  padding: 5px !important;
+  background-color: white;
+  right: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+}
+
+.minimalist-img div .sale {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 14px;
+  font-weight: 500;
+  top: 18px;
+  left: 25px;
+  border: 1px solid white;
+  background-color: white;
+  color: #025048;
+  padding: 3px 8px;
+  border-radius: 12px;
+}
+
+.minimalist div h5 {
+  font-size: 18px;
+  color: #424b4a;
+  margin-top: 15px;
+}
+
+.minimalist div h4 {
+  font-family: "Playfair Display", serif !important;
+  color: #025048;
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.minimalist .star {
+  margin: 5px 0px;
+}
+
+.text-box {
+  width: 100%;
+  padding: 0px 150px;
+  height: auto;
+  margin-bottom: 200px;
+}
+
+.text-box p {
+  font-family: "Playfair Display", serif !important;
+  color: #025048;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.text-box h1 {
+  font-family: "Playfair Display", serif !important;
+  color: #025048;
+  font-size: 50px;
+  font-weight: 540;
+  line-height: 1.1;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  width: 850px;
+}
+
+.cmnt-box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.cmnt-box .cmnt-box-1 {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.cmnt-box p {
+  margin-top: 10px;
+  font-family: "Playfair Display", serif !important;
+  color: #025048;
+  font-size: 19px;
+  line-height: 1.5;
+  width: 500px;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars span {
+  color: rgb(255, 145, 0);
+  font-size: 24px;
+  margin-right: 2px;
+}
+
+.human1 {
+  display: flex;
+  height: auto;
+  align-items: center;
+}
+
+.human1 img {
+  width: 50px;
+  height: 50px;
+  border: 0.1px solid transparent;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.human1 div p {
+  font-size: 16px;
+  color: #025048;
+  margin: 0px 20px;
+}
+
+.human2 {
+  display: flex;
+  height: auto;
+  align-items: center;
+}
+
+.human2 img {
+  width: 50px;
+  height: 50px;
+  border: 0.1px solid transparent;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.human2 div p {
+  font-size: 16px;
+  color: #025048;
+  margin: 0px 20px;
+}

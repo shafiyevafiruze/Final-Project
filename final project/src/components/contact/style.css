@@ -1,0 +1,205 @@
+.about-container {
+  width: 100%;
+  background-color: #025048;
+  height: 500px;
+  position: relative;
+  display: flex;
+}
+
+.about-container img {
+  margin-top: 50px;
+  width: 450px;
+  height: 502px;
+  position: absolute;
+  right: 150px;
+}
+
+.main-about {
+  width: 50%;
+  margin-left: 150px;
+  margin-top: 189px;
+}
+
+.main-about h1 {
+  color: white;
+  font-weight: 500;
+  line-height: 72.6px;
+  font-size: 66px;
+  font-family: "Playfair Display", serif !important;
+  margin-bottom: 20px;
+}
+
+.main-about p {
+  color: white;
+  font-family: "Work Sans", sans-serif !important;
+  font-size: 16px;
+  line-height: 24px;
+  width: 660px;
+  letter-spacing: normal;
+  text-align: start;
+}
+
+.get-in-touch {
+  width: 80%;
+  margin: 150px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.git-text {
+  width: 50%;
+}
+
+.git-text hr {
+  opacity: 20%;
+  margin: 20px 0px;
+}
+
+.touch-text .get {
+  font-family: "Playfair Display", serif !important;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 24px;
+  color: #424b4a;
+}
+
+.touch-text .share {
+  width: 450px;
+  font-family: "Work Sans", sans-serif !important;
+  font-size: 16px;
+  line-height: 26px;
+  color: #424b4a;
+}
+
+.address-box {
+  display: flex;
+  justify-content: start;
+  margin: 20px 0px;
+}
+
+.address-text {
+  margin-left: 20px;
+}
+
+.phone-box {
+  display: flex;
+  justify-content: start;
+  margin: 20px 0px;
+}
+
+.phone-text {
+  margin-left: 20px;
+}
+
+.email-box {
+  display: flex;
+  justify-content: start;
+  margin: 20px 0px;
+}
+
+.email-text {
+  margin-left: 20px;
+}
+
+.form {
+  width: 50%;
+}
+
+.form p {
+  color: #424b4a;
+  margin: 15px 0px;
+}
+
+.form input {
+  width: 293px;
+  padding: 12px;
+  height: 48px;
+  font-size: 13px;
+  border: 1px solid #d1d1d1;
+}
+
+.form textarea {
+  width: 603px;
+  height: 150px;
+  border: 1px solid #d1d1d1;
+  padding: 12px;
+}
+
+.form button {
+  width: 130px;
+  border: 0.5px solid #025048;
+  background-color: white;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 15px 30px;
+  color: #025048;
+  font-family: "Work Sans", sans-serif !important;
+  line-height: 16px;
+  margin-top: 10px;
+}
+
+.form button:hover {
+  color: white;
+  background-color: #025048;
+}
+
+.social-icons-touch {
+  margin-left: 120px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.social-icons-touch a {
+  width: 12px;
+  height: auto;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.FAQ-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  margin: 100px auto;
+}
+
+.FAQ-text {
+  width: 50%;
+}
+
+.FAQ-text h1 {
+  font-family: "Playfair Display", serif !important;
+  color: #025048;
+  font-size: 48px;
+  line-height: 57.6px;
+  letter-spacing: normal;
+  font-weight: 500;
+}
+
+.FAQ-text p {
+  color: #424b4a;
+  width: 450px;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif !important;
+  line-height: 24px;
+  margin-top: 15px;
+}
+
+.FAQ-buttons button {
+  display: block;
+  justify-content: start;
+  width: 600px;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 19px 0px 19px 20px;
+  text-align: left;
+  border: 0.5px solid #d1d1d1;
+  border-radius: 0px;
+  font-weight: bold;
+  background-color: white;
+  color: #025048;
+  font-family: "Playfair Display", serif !important;
+  cursor: pointer;
+}
